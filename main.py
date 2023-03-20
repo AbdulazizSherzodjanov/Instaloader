@@ -1,4 +1,6 @@
 import instaloader
 ins = instaloader.Instaloader()
-user = input("Username : ")
+print("Github : https://github.com/AbdulazizSherzodjanov")
+user = input("Enter a instagram username : ")
 ins.download_profile(user,profile_pic_only=True)
+print(user," Instagram data of profile  succesfully  downloaded !")
